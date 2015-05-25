@@ -25,9 +25,11 @@ The privilege is based on who executed the server program.
 Executables:
 --------------------------------------------------------------------------------
 On the target's machine, type:
+
 $ python server.py -p (port) &
 
 On the attacker's machine, type:
+
 $ python client.py -d (host ip) -p (port)
 
 Note:
