@@ -23,10 +23,10 @@ The privilege is based on who executed the server program.
 Executables:
 --------------------------------------------------------------------------------
 On the target's machine, type:
-$ python server.py -p <port>
+$ python server.py -p (port) &
 
 On the attacker's machine, type:
-$ python client.py -d <host ip> -p <port>
+$ python client.py -d (host ip) -p (port)
 
 Note:
 Both program requires pycrypto library to be installed Additionally, the server
@@ -34,7 +34,7 @@ requires the setproctitle library to be installed
 
 You may download the libraries from the links below:
 - https://pypi.python.org/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz
-- https://pypi.python.org/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz
+- https://pypi.python.org/packages/source/s/setproctitle/setproctitle-1.1.8.tar.gz#md5=728f4c8c6031bbe56083a48594027edd
 
 Documentations:
 ---------------------------------------------------------------------------------
